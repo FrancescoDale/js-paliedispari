@@ -1,4 +1,5 @@
 var inputWord;
+var string = [];
 
 // ciclo che fa inserire la parola, nel caso si inserisce un numero fa ripetere il ciclo
 
@@ -11,3 +12,7 @@ do {
 console.log(inputWord);
 
 // la parola data in input deve essere splittata in sottostringhe e ricostruita al contrario. Dopo questo si fa un controllo e si confronta se sono uguali o no.
+
+string = inputWord.split('');
+
+console.log(string);
