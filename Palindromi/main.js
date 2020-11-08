@@ -1,5 +1,6 @@
 var inputWord;
 var string = [];
+var check = false;
 
 // ciclo che fa inserire la parola, nel caso si inserisce un numero fa ripetere il ciclo
 
@@ -15,4 +16,12 @@ console.log(inputWord);
 
 string = inputWord.split('');
 
+//controllo
 console.log(string);
+
+var revString = string.reverse('');
+
+//controllo
+console.log(revString);
+
+//creo un ciclo for che scorre l'array
